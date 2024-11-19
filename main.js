@@ -1,8 +1,6 @@
-import './style.css'
-
+import "./style.css";
 import products from "./api/products.json";
+import { showProductContainer } from "./homeProductCard.js";
 
-// define a function taht take array of product as input 
-
+// Define a function named `showProductContainer` that takes an array of products as input.
 showProductContainer(products);
-
